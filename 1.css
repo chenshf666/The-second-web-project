@@ -13,6 +13,11 @@
 	height: 640px;
 	float:left;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
 }
-#left_button, #right_button{
+#left_button,#right_button{
+	height: 20px;
+	min-height: 20px;
 }
